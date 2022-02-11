@@ -8,7 +8,7 @@ for i in range(1, t + 1):
   v, d = [int(s) for s in input().split(" ")]
   g = 9.8
 
-  a = ((-(g*d*d/(2*v*v))))
+  a = ((-((g*d*d)/(2*v*v))))
   b = d
   c = a
 
